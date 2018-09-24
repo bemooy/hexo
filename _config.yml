@@ -79,4 +79,6 @@ theme: hexo-theme-snippet-master
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git 
+  repo: https://github.com/bemooy/hexo.github.io.git
+  branch: master
